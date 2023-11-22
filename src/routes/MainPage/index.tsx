@@ -2,6 +2,7 @@ import './styles.css';
 import Header from '../../components/Header';
 import CardProduct from '../../components/CardProduct';
 import CardComments from '../../components/CardComments';
+import Footer from '../../components/Footer';
 
 export default function MainPage() {
     return (
@@ -28,6 +29,7 @@ export default function MainPage() {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </main>
         </>
     );
