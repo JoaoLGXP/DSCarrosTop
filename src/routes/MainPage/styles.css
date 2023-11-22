@@ -25,7 +25,7 @@
   color: var(--dsct-color-font-secondary);
 }
 
-.dsct-products-cards {
+.dsct-cards-container {
   display: grid;
   grid-gap: 25px;
   justify-items: center;
