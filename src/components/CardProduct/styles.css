@@ -1,0 +1,24 @@
+.dsct-product-card {
+  width: 100%;
+  max-width: 746px;
+  max-height: 352px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--dsct-color-border);
+  border-radius: 10px;
+}
+
+.dsct-product-card img {
+  width: 100%;
+  max-width: 391px;
+  max-height: 292px;
+  padding: 10px;
+}
+
+.dsct-product-card h5 {
+  font-size: 16px;
+  color: var(--dsct-color-font-secondary);
+  padding-bottom: 10px;
+}

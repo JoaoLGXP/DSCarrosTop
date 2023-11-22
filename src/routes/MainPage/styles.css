@@ -1,0 +1,38 @@
+#dsct-section {
+  padding: 25px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsc-bg-catalog {
+  background-color: var(--dsct-color-bg-primary);
+}
+
+.dsc-bg-comments {
+  background-color: var(--dsct-color-bg-tertiary);
+}
+
+.dsct-catalog {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.dsct-catalog h3 {
+  text-align: center;
+  font-size: 20px;
+  color: var(--dsct-color-font-secondary);
+}
+
+.dsct-products-cards {
+  display: grid;
+  grid-gap: 25px;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .dsct-catalog h3 {
+    font-size: 32px;
+  }
+}
